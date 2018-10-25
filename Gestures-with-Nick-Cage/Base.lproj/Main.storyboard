@@ -20,23 +20,24 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Xcs-SF-KSD">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OGR-xc-cG1">
-                                <rect key="frame" x="120" y="87" width="135" height="61"/>
-                                <string key="text">Tap : Calm Cage                       Press : Grey Cage                                                                       Swipe: CRAZY CAGE!            </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap - Calm Cage Press - Grey Cage Swipe - Crazy Cage" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OGR-xc-cG1">
+                                <rect key="frame" x="112.5" y="50" width="150" height="57.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="Wz1-1m-krp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OGR-xc-cG1" secondAttribute="trailing" constant="120" id="72X-O9-3dG"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Xcs-SF-KSD" secondAttribute="trailing" id="L9e-M6-TiN"/>
-                            <constraint firstItem="OGR-xc-cG1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="X4b-LX-q5V"/>
+                            <constraint firstItem="OGR-xc-cG1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="O6G-4b-Rme"/>
                             <constraint firstItem="Xcs-SF-KSD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bY1-P9-UYh"/>
                             <constraint firstItem="Xcs-SF-KSD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="q6H-82-NOD"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Xcs-SF-KSD" secondAttribute="bottom" id="re6-DG-cGq"/>
-                            <constraint firstItem="OGR-xc-cG1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="67" id="wy4-Zw-V4R"/>
+                            <constraint firstItem="OGR-xc-cG1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wio-pr-Z37"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
