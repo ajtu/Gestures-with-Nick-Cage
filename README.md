@@ -5,3 +5,6 @@ Press for Grey Nicholas Cage
 Swipe for Crazy Nicholas Cage  
 ImageView Extension to load Image URL  
 https://www.placecage.com  
+
+
+![demo](https://github.com/ajtu/Gestures-with-Nick-Cage/blob/master/demo.gif)
